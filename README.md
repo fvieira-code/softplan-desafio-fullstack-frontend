@@ -1,65 +1,68 @@
-# softplan-desafio-fullstack-frontend
-Projeto front end com React - Sistema de Gerenciamento de Processos
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Ferramentas de Desenvolvimento
-## Preparação do ambientes front-end:
+## Available Scripts
 
-## 1. NodeJs: nodejs.org - Engine que roda JS do lado do servidor.
-node -v
-npm -v = Gerenciador de pacotes
+In the project directory, you can run:
 
-npm install -g yarn - windows 
-sudo yum install curl - fedora
-yarn init my_yarn_project
-yarn --version
+### `yarn start`
 
-npm install -g create-react-app 
-create-react-app softplan-desafio-fullstack-frontend
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-softplan-desafio-fullstack-frontend> yarn buid (Montar a aplicação)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-softplan-desafio-fullstack-frontend> yarn start (Iniciar a aplicação)
+### `yarn test`
 
-http://localhost:3000
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 2. Instalando Visual Studio Code - VSCode
-i. https://code.visualstudio.com/
+### `yarn build`
 
-ii. Abrir o projeto criado;
-/home/projetos/softplan-desafio-fullstack-frontend
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Abrir no VSCode: softplan-desafio-fullstack-frontend
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-iii. Instalnado Bootswatch e Bootstrap:
-/home/projetos/softplan-desafio-fullstack-frontend> yarn add bootswatch
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-iv. Rotas para navegar entre as Views:
-/home/projetos/softplan-desafio-fullstack-frontend> yarn add react-router-dom
+### `yarn eject`
 
-## 3. Instalando Axios para realizar requisição para a API REST :
-i. github.com/axios/axios
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-ii. yarn add axios
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 4. Instalar o PrimeReact : componentes de botões e etc.
-Usado no projeto:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-https://www.primefaces.org/primereact/
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-npm install primereact --save
-npm install primeicons --save
+## Learn More
 
-yarn add primereact primeicons classnames react-transition-group
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 5. Instalar a biblioteca JavaScript Toastr que nos permite exibir notificações para o usuário em aplicações web:
-yarn add toastr
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## 6. Um utilitário Javascript simples que o ajuda a exibir moeda corretamente:
-yarn add currency-formatter
+### Code Splitting
 
-## 7. Build em tempo de desenvolvimento:
-yarn build
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-## 8. Iniciar o servidor: 
-yarn start
+### Analyzing the Bundle Size
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
